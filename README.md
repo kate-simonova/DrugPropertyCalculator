@@ -1,5 +1,5 @@
 # DrugPropertyCalculator
-DrugPropertyCalculator is used to search for normalized drug names an calculate molecular descriptors.
+DrugPropertyCalculator is used to search for normalized drug names and calculate molecular descriptors.
 
 The example input: adenocard, bg8967, diflucan, ibrutinib, bivalirudin
 
@@ -14,7 +14,7 @@ The example output for the following drug names:
 | ibrutinib         | CHEMBL1873475 | exact     | IBRUTINIB   | C=CC(=O)N1CCC[C@@H](n2nc(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1                                                                                                                                                                                                                                                                                                | 404.0       | 7       | 1       | 99,16    | 440,51                 | 4                 | 1                 | 33             | 4,22     | 126,74           | FALSE           | TRUE           | 1,72      | 2        |
 
 
-A  list of commands to execute
+A  list of commands to execute (the tool takes 1-2 to run):
 
 ```
 git clone git@github.com:kate-simonova/DrugPropertyCalculator.git
